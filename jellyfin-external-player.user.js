@@ -9,6 +9,9 @@
 // @run-at       document-end
 // ==/UserScript==
 
+let APIKEY = "INSERT API KEY HERE"; // Jellyfin API Key
+let JF_HOST_URL = "https://localhost:8096"; // Jellyfin Host URL
+
 function execute() {
     'use strict';
 
